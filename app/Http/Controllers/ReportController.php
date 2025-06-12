@@ -7,16 +7,25 @@ use App\Models\Room;
 use App\Models\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Foundation\Auth\Access\AuthorizesRequests; // Tambahkan ini
 use Carbon\Carbon;
 
 class ReportController extends Controller
 {
+    use AuthorizesRequests; // Tambahkan trait ini
+
     public function index()
     {
         // Only admin can access reports
         $this->authorize('viewReports', Booking::class);
         
-        return view('reports.index');
+        // Tambahkan statistik dasar untuk dashboard reports
+        $totalBookings = Booking::count();
+        $totalRooms = Room::count();
+        $totalUsers = User::where('role', 'mahasiswa')->count();
+        $pendingBookings = Booking::where('status', 'pending')->count();
+        
+        return view('reports.index', compact('totalBookings', 'totalRooms', 'totalUsers', 'pendingBookings'));
     }
     
     public function bookingsByDate(Request $request)
