@@ -10,7 +10,7 @@ use Illuminate\Validation\Rules;
 
 class AuthController extends Controller
 {
-    public function showLogin()
+    public function showLogin(
     {
         return view('auth.login');
     }
