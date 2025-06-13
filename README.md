@@ -6,7 +6,7 @@ Pindwa Pradana Nayottama 102022300046 ->Halaman Utama dan Pengajuan Peminjaman R
 
 Moehammad Mifthahuz Dzaki 102022330365 -> Profil (JEKI229)
 
-Made Aryasatya Cahya Nugraha Rusdyana 102022300339 ->Fitur Daftar Peminjaman (ARYASATYA339)
+Made Aryasatya Cahya Nugraha Rusdyana 102022300339 ->membantu Fitur Daftar Peminjaman (ARYASATYA339)
 
 Proyek yang dikembangkan oleh kami Kelompok 9 LAB TFS ini merupakan sebuah sistem informasi berbasis web yang dirancang untuk mengelola dan menyederhanakan proses peminjaman ruang kuliah di Telkom University. Tujuan utamanya adalah untuk menciptakan solusi digital yang mengatasi ketidakefisienan sistem reservasi yang masih manual atau semi-digital.
 
