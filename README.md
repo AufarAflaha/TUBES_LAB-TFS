@@ -1,61 +1,29 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+Aufar Akyas Aflaha 102022300139 ->Laporan Peminjaman (AufarAflaha) -> dimaster branch
+Salman Alfarisy 102022300180 ->Validasi Pengajuan oleh Admin (wqrpath)
+Pindwa Pradana Nayottama 102022300046 ->Halaman Utama dan Pengajuan Peminjaman Ruang (pradananayo)
+Moehammad Mifthahuz Dzaki 102022330365 -> Profil (JEKI229)
+Made Aryasatya Cahya Nugraha Rusdyana 102022300339 ->Fitur Daftar Peminjaman (ARYASATYA339)
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+Proyek yang dikembangkan oleh kami Kelompok 9 LAB TFS ini merupakan sebuah sistem informasi berbasis web yang dirancang untuk mengelola dan menyederhanakan proses peminjaman ruang kuliah di Telkom University. Tujuan utamanya adalah untuk menciptakan solusi digital yang mengatasi ketidakefisienan sistem reservasi yang masih manual atau semi-digital.
 
-## About Laravel
+Permasalahan:
+Proses peminjaman ruangan yang ada saat ini seringkali lambat dan tidak efisien, sehingga menimbulkan masalah seperti jadwal yang tumpang tindih, keterlambatan persetujuan, dan kurangnya informasi ketersediaan ruang secara real-time. Proses manual ini mengharuskan mahasiswa atau dosen mengisi formulir fisik atau menghubungi pihak administrasi secara langsung, yang memakan waktu dan berpotensi menimbulkan kesalahpahaman.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Solusi:
+Solusi yang diusulkan adalah sistem berbasis web yang terintegrasi dan ramah pengguna (user-friendly). Sistem ini memungkinkan pengguna untuk memeriksa ketersediaan ruang, mengajukan peminjaman, dan memantau status pengajuan mereka secara daring. Sistem ini diharapkan dapat menyederhanakan proses reservasi, meningkatkan efisiensi administrasi, dan mendukung upaya digitalisasi kampus.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+Fitur Utama:
+Sistem ini mencakup fungsionalitas untuk berbagai peran pengguna:
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Mahasiswa/Pengguna: Dapat melakukan registrasi, login, melihat daftar ruang dan jadwal ketersediaan secara real-time, mengajukan peminjaman, serta melacak status pengajuannya.
+Admin: Dapat mengelola data ruang kuliah (menambah, mengubah, menghapus), memvalidasi dan mengelola pengajuan peminjaman untuk mencegah konflik, serta membuat laporan penggunaan ruang.
 
-## Learning Laravel
+Spesifikasi Teknis:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
-
-### Premium Partners
-
-- **[Vehikl](https://vehikl.com)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development)**
-- **[Active Logic](https://activelogic.com)**
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Code of Conduct
-
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+Arsitektur: Sistem ini dibangun menggunakan pola arsitektur Model-View-Controller (MVC).
+Frontend: Dikembangkan menggunakan Laravel Blade sebagai template engine, didukung dengan HTML dan CSS (menggunakan Bootstrap atau Tailwind CSS) untuk antarmuka yang responsif.
+Backend: Ditenagai oleh Framework PHP Laravel.
+Database: Menggunakan MySQL untuk menyimpan semua data relevan, termasuk informasi pengguna, detail ruang, jadwal, dan data peminjaman.
+Metode Pengembangan: Proyek ini dikembangkan dengan metode Waterfall, yang mencakup proses sekuensial mulai dari analisis, perancangan, implementasi, pengujian, hingga pemeliharaan.
+Keamanan: Menerapkan langkah-langkah keamanan seperti hashing password (bcrypt), proteksi CSRF, dan kontrol akses berbasis peran (Role-based Access Control) untuk menjamin integritas dan keamanan data.
+Proyek ini bertujuan untuk menyediakan platform yang efisien, transparan, dan terpusat untuk mengelola reservasi ruang kuliah, yang akan memberikan manfaat bagi mahasiswa, dosen, dan administrasi universitas.
